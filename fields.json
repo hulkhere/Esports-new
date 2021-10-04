@@ -1,0 +1,23 @@
+{
+  "countdownDuration": {
+    "type": "number",
+    "label": "Countdown Duration [Minutes]",
+    "value": 10,
+    "min": 0,
+    "max": 10000000000,
+    "step": 1,
+    "group":"Settings"
+  },
+  "gradientColor1": {
+    "type": "colorpicker",
+    "label": "Timer Gradient Color 1",
+    "value": "#0000FF",
+    "group": "Colors and Design"
+  },
+  "gradientColor2": {
+    "type": "colorpicker",
+    "label": "Timer Gradient Color 2",
+    "value": "#0000FF",
+    "group": "Colors and Design"
+  }
+}

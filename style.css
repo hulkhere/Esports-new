@@ -39,14 +39,13 @@
 
   .panel {
     padding: 0 18px;
-    background-color:rgb(77, 73, 70);
-    max-height: 0;
-    overflow-y: hidden;
-    overflow-x: auto;
-    transition: max-height 0.2s ease-out;
-  
+    display: none;
+    background-color: rgb(77, 73, 70);
+    overflow: hidden;
+    overflow-x: hidden;
+    transition: all;
+}
 
-  }
   h2{
     color:whitesmoke;
     display: flex;
@@ -68,7 +67,7 @@
     
   }
 
-  .start{
+  #start{
     background-color: rgb(255, 255, 255);
     border: none;
     color: black;
@@ -84,7 +83,23 @@
     bottom: 1px;
   }
 
-  .update{ 
+  #pause{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: larger;
+    position: relative;
+    bottom: 1px;
+  }
+
+  #update{ 
     background-color: rgb(255, 255, 255);
     border: none;
     color: black;
@@ -98,7 +113,7 @@
     font-size: larger;
     position: relative;
     bottom: 1px;
-    width: 230px;
+    width: 300px;
   }
 
   .num{
@@ -114,7 +129,7 @@
     font-size: larger;
     position: relative;
     bottom: 1px;
-    right: 238px;
+    right: 310px;
 
   }
 

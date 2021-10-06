@@ -5,25 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    
     <title>Esports</title>
   </head>
   <body>
+   
     <h2>Global Esports</h2>
     <button class="accordion">Starting soon
     </button>
     <div class="panel">
       <p>
-        <button class="start">Start Timer </button>
-        <button class="start">Reset Timer</button>
-        <button class="update">Update Timer</button>
-        <button class="num">30</button>
+        
+      <button  id="start">Start Timer </button>
+        <button id="pause">Pause Timer</button>
+       <button id="update">Update Timer</button>
+        <button class="num"> <span id="min">00</span></button>
+        <button class="num"><span id="sec">00</span></button>
       </p>
     </div>
 
     <button class="accordion">Break</button>
     <div class="panel">
-      <p>
+      <p> 
         2
         6       
       </p>
@@ -79,6 +82,6 @@
       <p>Need to add timer</p>
     </div>
 
-
+ <script src="index.js"></script>
   </body>
 </html>
